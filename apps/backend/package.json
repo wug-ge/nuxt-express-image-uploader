@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "node --watch --env-file=../../.env index.ts",
+    "start": "ts-node --env-file=../../.env dist/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@tus/s3-store": "^2.0.0",
+    "@tus/server": "^2.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.12"
+  }
+}
